@@ -1,0 +1,738 @@
+
+{
+  "schemaVersion": 1,
+  "traceEvents": [
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838037236,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666726658176, "Bytes": 50331648, "Total Allocated": 50331648, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838052624,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666715557632, "Bytes": 37632, "Total Allocated": 50369280, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838052780,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666777063552, "Bytes": 50331648, "Total Allocated": 100700928, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838065826,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666715557632, "Bytes": -37632, "Total Allocated": 100663296, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838065844,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666726658176, "Bytes": -50331648, "Total Allocated": 50331648, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838069348,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666726633600, "Bytes": 50331648, "Total Allocated": 100663296, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 64444, "tid": 52912,
+    "ts": 1666592838069257, "dur": 118,
+    "args": {
+       "External id": 5,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided_", "pid": 64444, "tid": 52912,
+    "ts": 1666592838079114, "dur": 113,
+    "args": {
+       "External id": 6,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838079241,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666777063552, "Bytes": -50331648, "Total Allocated": 50331648, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::mkldnn_convolution", "pid": 64444, "tid": 52912,
+    "ts": 1666592838036970, "dur": 45987,
+    "args": {
+       "External id": 4,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_convolution", "pid": 64444, "tid": 52912,
+    "ts": 1666592838036939, "dur": 46058,
+    "args": {
+       "External id": 3,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::convolution", "pid": 64444, "tid": 52912,
+    "ts": 1666592838036919, "dur": 46088,
+    "args": {
+       "External id": 2,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::conv2d", "pid": 64444, "tid": 52912,
+    "ts": 1666592836648579, "dur": 1434439,
+    "args": {
+       "External id": 1,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 64444, "tid": 52912,
+    "ts": 1666592838083137, "dur": 43,
+    "args": {
+       "External id": 8,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::permute", "pid": 64444, "tid": 52912,
+    "ts": 1666592838083089, "dur": 126,
+    "args": {
+       "External id": 7,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 1
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838083439,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666777067648, "Bytes": 50331648, "Total Allocated": 100663296, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 64444, "tid": 52912,
+    "ts": 1666592838083416, "dur": 39,
+    "args": {
+       "External id": 14,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty_like", "pid": 64444, "tid": 52912,
+    "ts": 1666592838083408, "dur": 54,
+    "args": {
+       "External id": 13,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::copy_", "pid": 64444, "tid": 52912,
+    "ts": 1666592838083466, "dur": 18559,
+    "args": {
+       "External id": 15,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::clone", "pid": 64444, "tid": 52912,
+    "ts": 1666592838083392, "dur": 18653,
+    "args": {
+       "External id": 12,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::contiguous", "pid": 64444, "tid": 52912,
+    "ts": 1666592838083371, "dur": 18718,
+    "args": {
+       "External id": 11,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838102153,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666827440256, "Bytes": 50331648, "Total Allocated": 150994944, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 64444, "tid": 52912,
+    "ts": 1666592838102111, "dur": 60,
+    "args": {
+       "External id": 16,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838102191,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666716410496, "Bytes": 262144, "Total Allocated": 151257088, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 64444, "tid": 52912,
+    "ts": 1666592838102174, "dur": 27,
+    "args": {
+       "External id": 17,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838102213,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666716672768, "Bytes": 262144, "Total Allocated": 151519232, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::empty", "pid": 64444, "tid": 52912,
+    "ts": 1666592838102202, "dur": 20,
+    "args": {
+       "External id": 18,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 64444, "tid": 52912,
+    "ts": 1666592838114109, "dur": 115,
+    "args": {
+       "External id": 19,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 64444, "tid": 52912,
+    "ts": 1666592838114234, "dur": 14,
+    "args": {
+       "External id": 20,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838114279,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666777067648, "Bytes": -50331648, "Total Allocated": 101187584, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::native_layer_norm", "pid": 64444, "tid": 52912,
+    "ts": 1666592838083335, "dur": 34510,
+    "args": {
+       "External id": 10,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 2
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::layer_norm", "pid": 64444, "tid": 52912,
+    "ts": 1666592838083303, "dur": 34563,
+    "args": {
+       "External id": 9,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 2
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 64444, "tid": 52912,
+    "ts": 1666592838118037, "dur": 16,
+    "args": {
+       "External id": 24,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::transpose", "pid": 64444, "tid": 52912,
+    "ts": 1666592838118023, "dur": 38,
+    "args": {
+       "External id": 23,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::t", "pid": 64444, "tid": 52912,
+    "ts": 1666592838117993, "dur": 80,
+    "args": {
+       "External id": 22,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 3
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 64444, "tid": 52912,
+    "ts": 1666592838118091, "dur": 36,
+    "args": {
+       "External id": 26,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 4
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838118195,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666877853824, "Bytes": 201326592, "Total Allocated": 302514176, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::resolve_conj", "pid": 64444, "tid": 52912,
+    "ts": 1666592838118215, "dur": 20,
+    "args": {
+       "External id": 28,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::resolve_conj", "pid": 64444, "tid": 52912,
+    "ts": 1666592838118237, "dur": 12,
+    "args": {
+       "External id": 29,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::mm", "pid": 64444, "tid": 52912,
+    "ts": 1666592838118132, "dur": 119782,
+    "args": {
+       "External id": 27,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 5
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 64444, "tid": 52912,
+    "ts": 1666592838237997, "dur": 49,
+    "args": {
+       "External id": 31,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_unsafe_view", "pid": 64444, "tid": 52912,
+    "ts": 1666592838237958, "dur": 126,
+    "args": {
+       "External id": 30,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 6
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::matmul", "pid": 64444, "tid": 52912,
+    "ts": 1666592838118078, "dur": 120031,
+    "args": {
+       "External id": 25,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 4
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add_", "pid": 64444, "tid": 52912,
+    "ts": 1666592838238199, "dur": 22426,
+    "args": {
+       "External id": 32,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 7
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::linear", "pid": 64444, "tid": 52912,
+    "ts": 1666592838117966, "dur": 142719,
+    "args": {
+       "External id": 21,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 3
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838260901,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1667079237760, "Bytes": 201326592, "Total Allocated": 503840768, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::gelu", "pid": 64444, "tid": 52912,
+    "ts": 1666592838260820, "dur": 50184,
+    "args": {
+       "External id": 33,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 8
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 64444, "tid": 52912,
+    "ts": 1666592838311137, "dur": 16,
+    "args": {
+       "External id": 37,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::transpose", "pid": 64444, "tid": 52912,
+    "ts": 1666592838311126, "dur": 58,
+    "args": {
+       "External id": 36,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::t", "pid": 64444, "tid": 52912,
+    "ts": 1666592838311090, "dur": 114,
+    "args": {
+       "External id": 35,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 9
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 64444, "tid": 52912,
+    "ts": 1666592838311238, "dur": 21,
+    "args": {
+       "External id": 39,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 10
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838311306,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1667280662656, "Bytes": 50331648, "Total Allocated": 554172416, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::resolve_conj", "pid": 64444, "tid": 52912,
+    "ts": 1666592838311321, "dur": 17,
+    "args": {
+       "External id": 41,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::resolve_conj", "pid": 64444, "tid": 52912,
+    "ts": 1666592838311340, "dur": 10,
+    "args": {
+       "External id": 42,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::mm", "pid": 64444, "tid": 52912,
+    "ts": 1666592838311262, "dur": 122197,
+    "args": {
+       "External id": 40,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 11
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::view", "pid": 64444, "tid": 52912,
+    "ts": 1666592838433485, "dur": 28,
+    "args": {
+       "External id": 44,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::_unsafe_view", "pid": 64444, "tid": 52912,
+    "ts": 1666592838433470, "dur": 51,
+    "args": {
+       "External id": 43,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 12
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::matmul", "pid": 64444, "tid": 52912,
+    "ts": 1666592838311207, "dur": 122325,
+    "args": {
+       "External id": 38,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 10
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add_", "pid": 64444, "tid": 52912,
+    "ts": 1666592838433535, "dur": 5222,
+    "args": {
+       "External id": 45,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 13
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::linear", "pid": 64444, "tid": 52912,
+    "ts": 1666592838311073, "dur": 127704,
+    "args": {
+       "External id": 34,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 9
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838438953,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666777030784, "Bytes": 50331648, "Total Allocated": 604504064, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::mul", "pid": 64444, "tid": 52912,
+    "ts": 1666592838438839, "dur": 14109,
+    "args": {
+       "External id": 46,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 14
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::as_strided", "pid": 64444, "tid": 52912,
+    "ts": 1666592838453003, "dur": 19,
+    "args": {
+       "External id": 48,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0
+       
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::permute", "pid": 64444, "tid": 52912,
+    "ts": 1666592838452984, "dur": 50,
+    "args": {
+       "External id": 47,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 15
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838453236,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1667331104896, "Bytes": 50331648, "Total Allocated": 654835712, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "cpu_op", 
+    "name": "aten::add", "pid": 64444, "tid": 52912,
+    "ts": 1666592838453153, "dur": 18122,
+    "args": {
+       "External id": 49,
+       "Trace name": "PyTorch Profiler", "Trace iteration": 0,
+       "Fwd thread id": 0, "Sequence number": 16
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838471326,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666777030784, "Bytes": -50331648, "Total Allocated": 604504064, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838477009,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1667280662656, "Bytes": -50331648, "Total Allocated": 554172416, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838480511,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1667079237760, "Bytes": -201326592, "Total Allocated": 352845824, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838495021,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666877853824, "Bytes": -201326592, "Total Allocated": 151519232, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838511337,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666827440256, "Bytes": -50331648, "Total Allocated": 101187584, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838515733,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666726633600, "Bytes": -50331648, "Total Allocated": 50855936, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838520027,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666716410496, "Bytes": -262144, "Total Allocated": 50593792, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838520041,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1666716672768, "Bytes": -262144, "Total Allocated": 50331648, "Total Reserved": 0
+    }
+  },
+  {
+    "ph": "i", "s": "t", "name": "[memory]",
+    "pid": 64444, "tid": 52912,
+    "ts": 1666592838520076,
+    "args": {
+      "Device Type": 0, "Device Id": -1, "Addr": 1667331104896, "Bytes": -50331648, "Total Allocated": 0, "Total Reserved": 0
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 1666592836648413, "pid": 64444, "tid": 52912,
+    "args": {
+      "name": "thread 52912 ()"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 1666592836648413, "pid": 64444, "tid": 52912,
+    "args": {
+      "sort_index": 52912
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 1666592836648413, "dur": 1875842,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 1666592836648413,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 1666592836648413
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 1666592838524292
+  }
+]}

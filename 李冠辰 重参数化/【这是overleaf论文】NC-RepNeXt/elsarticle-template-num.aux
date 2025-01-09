@@ -1,0 +1,113 @@
+\relax 
+\providecommand \oddpage@label [2]{}
+\citation{replknet,convnext}
+\citation{replknet}
+\citation{autodriving}
+\citation{convnext}
+\citation{dbb}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{}\protected@file@percent }
+\newlabel{sec:introduction}{{1}{2}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Top-1 accuracy on ImageNet-1K vs. latency. The latency is tested on an NVIDIA A100 GPU with an input resolution of $224^2$, a batch size of 1, and full precision (fp32). Spots on one line mean different versions of a model. \textbf  {RepNeXt} finds a better accuracy-speed trade-off.}}{3}{}\protected@file@percent }
+\newlabel{fig:top}{{1}{3}{}{}{}}
+\citation{vit}
+\citation{imagenet}
+\newlabel{fig:repunit1}{{1}{4}{}{}{}}
+\newlabel{fig:repunit2}{{1}{4}{}{}{}}
+\newlabel{fig:repunit3}{{1}{4}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The \textbf  {design route} and \textbf  {re-parameterization process} for RepUnit. \textbf  {RepUnit1 (a)} is implemented using three different sizes of parallel kernels for depth concatenation. This design style sacrifices a portion of the large receptive field to the small receptive field. Unlike RepUnit1, the implementation of \textbf  {RepUnit2 (b)} uses parallel kernels for branch addition. This design style adds the small receptive field. \textbf  {RepUnit3 (c)} is obtained by compressing some of the kernels of RepUnit2.}}{4}{}\protected@file@percent }
+\newlabel{fig:repunits}{{2}{4}{}{}{}}
+\citation{coatnet}
+\citation{botnet}
+\citation{resnet}
+\citation{replknet}
+\citation{convnext}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{5}{}\protected@file@percent }
+\newlabel{sec:relatedwork}{{2}{5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}ConvNet's high-performance design paradigm}{5}{}\protected@file@percent }
+\newlabel{subsec:2-1}{{2.1}{5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Structural Re-parameterization}{5}{}\protected@file@percent }
+\newlabel{subsec:2-2}{{2.2}{5}{}{}{}}
+\citation{acnet}
+\citation{dbb}
+\citation{repvgg}
+\citation{rmnet}
+\citation{repghost}
+\citation{resrep}
+\citation{repmlp}
+\citation{replknet}
+\@writefile{toc}{\contentsline {section}{\numberline {3}RepNeXt}{6}{}\protected@file@percent }
+\newlabel{sec:repnext}{{3}{6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Re-parameterizable Block Design}{6}{}\protected@file@percent }
+\newlabel{sec:3-1}{{3.1}{6}{}{}{}}
+\citation{online}
+\newlabel{eq1}{{1}{7}{}{}{}}
+\newlabel{eq2}{{2}{7}{}{}{}}
+\newlabel{fig:repnext-train}{{3.1}{8}{}{}{}}
+\newlabel{fig:repnext-infer}{{3.1}{8}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {Block designs} for a training-time RepNeXt \textbf  {(a)}, and an inference-time RepNeXt \textbf  {(b)}. RepNeXt uses RepUnit as the main feature extractor, uses the BN layer for normalization, uses pointwise conv to implement inverted bottlenecks, and adds an activation layer to the shortcut branch. After re-parameterization, RepNeXt will become a branchless plain architecture.}}{8}{}\protected@file@percent }
+\newlabel{fig:blocks}{{3}{8}{}{}{}}
+\newlabel{eq3}{{3}{8}{}{}{}}
+\newlabel{eq4}{{4}{8}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Shortcut re-parameterization} for RepNeXt. The upper and lower parts represent the RepNeXt block before and after the shortcut re-parameterization. Equivalent elimination of the shortcut branch is achieved by dirac initialization as the core tool with the prerequisite that the shortcut branch contains the same activation layer as the main branch.}}{9}{}\protected@file@percent }
+\newlabel{fig:shortcutrep}{{4}{9}{}{}{}}
+\citation{repvgg}
+\citation{mobilenetv3}
+\citation{rmnet}
+\citation{rmnet}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Shortcut Re-parameterization}{10}{}\protected@file@percent }
+\newlabel{sec:3-2}{{3.2}{10}{}{}{}}
+\newlabel{eq5}{{5}{10}{}{}{}}
+\newlabel{eq6}{{6}{11}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \textbf  {Detailed architecture specification} for the training-time RepNeXt-T and the inference-time RepNeXt-T. The resolution of the image input to the models is $224^2$.}}{12}{}\protected@file@percent }
+\newlabel{table:architecture}{{1}{12}{}{}{}}
+\newlabel{eq7}{{7}{12}{}{}{}}
+\newlabel{eq8}{{8}{12}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Architecture Specification}{12}{}\protected@file@percent }
+\newlabel{sec:3-3}{{3.3}{12}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces \textbf  {Results of ImageWoof classification}. The models are trained for 300 epochs with a batch size of 512, a learning rate of 5e-4, and an input resolution of $224^2$. The latency is tested on an NVIDIA A100 GPU with a batch size of 1, full precision (fp32).}}{13}{}\protected@file@percent }
+\newlabel{table:imagewoof}{{2}{13}{}{}{}}
+\citation{adamw}
+\citation{mixup,cutmix,randaug}
+\citation{depth}
+\citation{ema}
+\citation{resnet}
+\citation{vit}
+\citation{convnext}
+\citation{imagewoof}
+\citation{cifar}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces \textbf  {Results of Cifar100 classification}. The models are trained for 600 epochs with a batch size of 512, a learning rate of 5e-4, and an input resolution of $64^2$. The latency is tested on an NVIDIA A100 GPU with a batch size of 1, full precision (fp32).}}{14}{}\protected@file@percent }
+\newlabel{table:cifar100}{{3}{14}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{14}{}\protected@file@percent }
+\newlabel{sec:experiments}{{4}{14}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Image Classification}{14}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces \textbf  {Results of ImageNet-1K classification}. The models are trained for 450 epochs with a batch size of 1024, a learning rate of 1e-3, and an input resolution of $224^2$. The latency is tested on an NVIDIA A100 GPU with a batch size of 1, full precision (fp32). The throughput is tested on an NVIDIA A100 GPU with a batch size of 128, full precision (fp32).}}{15}{}\protected@file@percent }
+\newlabel{table:imagenet}{{4}{15}{}{}{}}
+\citation{resnet}
+\citation{mobilenetv3}
+\citation{efficientnet}
+\citation{deit}
+\citation{repvgg}
+\citation{repghost}
+\citation{replknet}
+\citation{maxvit}
+\citation{swin}
+\citation{convnext}
+\citation{imagenet}
+\citation{winograd}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Ablation study}{17}{}\protected@file@percent }
+\newlabel{sec:ablation}{{4.2}{17}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Efficiency Evaluation}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {Latency decomposition and GPU utilization analysis} of ConvNeXt-T, RepNeXt-u3-T before and after structural re-parameterization. LN and fully connected layers that rely on dimensional transformations take up much latency in ConvNeXt. The former is inherently time-consuming, and the latter is fragmented. Element-wise addition and multi-branching become non-negligible factors affecting the inference speed of RepNeXt in the training time. RepNeXt obtained inference acceleration by tidying up complex structures in the inference time. GPU utilization can reflect the degree of parallelism of a network. The elimination of multi-branch and fragmented structures improves the parallelism of RepNeXt in the inference time, which is another significant factor for its acceleration.}}{18}{}\protected@file@percent }
+\newlabel{pie}{{5}{18}{}{}{}}
+\citation{online}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces \textbf  {Results of ablation study}. Lc2pwconv is the network using conv layers to implement pointwise conv layers. Ln2bn is the network after replacing LN layers with BN layers. Shortcut-act is the network with activation layers added to shortcut branches. Each of the above operations is done based on the previous one. Only networks that could be shortcut re-parameterized (Rep.) were tested for speed after re-parameterization.}}{19}{}\protected@file@percent }
+\newlabel{table:ablation}{{5}{19}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Limitations}{19}{}\protected@file@percent }
+\newlabel{sec:limitations}{{5}{19}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Comparison of metrics with models on different hardware devices. The CPU is Intel(R) Xeon(R) Platinum 8260, the GPU device is NVIDIA A100, the edge device is NVIDIA Jetson Orin. Latency (Lat.) is in milliseconds, and throughput (Thr.) is in images/s. Regular and shortcut type re-parameterization are noted as rRep and sRep.}}{20}{}\protected@file@percent }
+\newlabel{tab2}{{6}{20}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{20}{}\protected@file@percent }
+\newlabel{sec:conclusion}{{6}{20}{}{}{}}
+\bibstyle{plain}
+\bibdata{sn-bibliography}
+\gdef \@abspage@last{22}
